@@ -21,7 +21,12 @@ function dividir (a, b) => a ÷ b
 
 // Traer todos los botones
 const allBtn = document.querySelectorAll('.calc-button');
-const 
+const logEl = document.getElementById('log');
+const resultEl = document.querySelector('#result');
+
+const logArr = [];
+
+let aux = '';
 
 for (let i = 0; i < allBtn.length; i++) {
     allBtn[i].addEventListener('click', (event) => {

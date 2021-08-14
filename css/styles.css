@@ -3,6 +3,7 @@
 /* quick reset so all our padding is the right size */
 * {
   box-sizing: border-box;
+  font-family: 'Space Mono';
 }
 
 .calculator input,
@@ -12,7 +13,7 @@
 
 /* add some spacing */
 body          {
-  background: #F6F6F6;
+  background: #f6f6f6;
   padding-bottom: 30px;
   padding-top: 30px;  
 }
@@ -73,11 +74,11 @@ body          {
 
 /* go blue */
 .is-clear   {
-  background: #3572DB;
+  background: #7ee7d0;
 }
 
 .is-equals {
-  background: #28D060;
+  background: #db76d3;
 }
 
 #log {
