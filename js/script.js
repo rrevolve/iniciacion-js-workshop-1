@@ -1,4 +1,5 @@
-// Traer botón por id
+/* 
+Traer botón por id
 document.getElementById('button-equals').addEventListener('click', () => {
     alert('Clic en igual');
 });
@@ -8,10 +9,16 @@ document.getElementById('button-equals').addEventListener('click', () => {
 document.querySelector('#button-divide').addEventListener('click', () => {
     alert('Clic en división');
 });
+*/
+
+function sumar (a, b) {
+    return a + b;
+}
 
 
 // Traer todos los botones
 const allBtn = document.querySelectorAll('.calc-button');
+const 
 
 for (let i = 0; i < allBtn.length; i++) {
     allBtn[i].addEventListener('click', (event) => {
