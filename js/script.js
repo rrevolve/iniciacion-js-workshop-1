@@ -14,6 +14,9 @@ document.querySelector('#button-divide').addEventListener('click', () => {
 function sumar (a, b) {
     return a + b;
 }
+function restar (a,b) => a − b
+function multiplicar (a,b) => a × b
+function dividir (a, b) => a ÷ b
 
 
 // Traer todos los botones
