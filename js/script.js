@@ -1,31 +1,12 @@
- 
-// Traer botón por id
-// document.getElementById('button-equals').addEventListener('click', () => {
-//     // alert('Clic en igual');
-// });
-
-
-// Otra forma de traer botón por id
-// document.querySelector('#button-divide').addEventListener('click', () => {
-//     // alert('Clic en división');
-// });
 function sumar(a,b) {
     return a + b;
 }
-
-// const resta = (a, b) => {
-//     return a - b;
-// };
-
-// const resta = (a, b) => a - b;
 
 const restar = (a, b) => sumar(a, -b);
 
 const multiplicar = (a, b) => a * b;
 
 const dividir = (a, b) => a / b;
-
-// const dividir = (a, b) => multiplicar(a, 1/b);
 
 // Traer todos los botones
 const allBtn = document.querySelectorAll('.calc-button');

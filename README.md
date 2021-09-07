@@ -23,3 +23,7 @@ Aplicar funcionalidad con javascript a la calculadora
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 - [Visual Studio Code](https://code.visualstudio.com/download)
+
+¿en algún lado es más útil usar una desestructuración de array o de function?
+¿cómo hacer para que funcione escribiendo los números en el log?
+¿el resultado está guardando como string o por qué saca error cuando se quiere seguir haciendo operaciones con el resultado?
