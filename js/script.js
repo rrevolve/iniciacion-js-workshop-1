@@ -1,8 +1,9 @@
-function sumar(a,b) {
-    return a + b;
-}
+// function sumar(a,b) {
+//     return a + b;
+// }
+const sumar = (a, b) => a + b;
 
-const restar = (a, b) => sumar(a, -b);
+const restar = (a, b) => a - b;
 
 const multiplicar = (a, b) => a * b;
 
@@ -23,7 +24,7 @@ for (let i = 0; i < allBtn.length; i++) {
     allBtn[i].addEventListener('click', (event) => {
         const element = event.target; // Elemento .calc-button que dispara el evento
 
-        if ( element.textContent == 'C' ) {
+        if (element.textContent == 'C') {
             logEl.innerText = '';
             logArr.length = 0;
             aux = '';
@@ -33,11 +34,6 @@ for (let i = 0; i < allBtn.length; i++) {
 
             let total = parseInt(logArr[0]);
 
-            // [1, +, 2, +, 3, +, 4, +, 5]
-            // #1 -> 1 + 2 = 3
-            // #2 -> 3 + 3 = 6
-            // #3 -> 6 + 4 = 10
-            // #4 -> 10 + 5 = 15
 
             for(let i = 1; i < logArr.length; i+=2) {
                 const op = logArr[i];
@@ -64,6 +60,7 @@ for (let i = 0; i < allBtn.length; i++) {
                 resultEl.value = "Error";
             } else {
                 resultEl.value = total;
+                logEl.innerText = '';
             }
         } else {
             logEl.innerText = logEl.innerText + element.textContent
