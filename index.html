@@ -13,33 +13,35 @@
   <body>
     <div class="calculator">
       <h1 class="container">Mi primera calculadora JS</h1>
-      
-      <!-- log -->
-      <div id="log" class="container"></div>
+      <div class="display">
+        <!-- log -->
+        <div id="log" class="container"></div>
 
-      <!-- the input -->
-      <input id="result" value="0">
-  
+       <!-- the input -->
+        <input id="result" value="0">
+      </div>
       <!-- the buttons -->
       <div class="calculator-buttons">
         <button id="button-clear" class="calc-button is-clear">C</button>
-        <button id="button-divide" class="calc-button">&divide;</button>
+        <button id="button-delete" class="calc-button delete">&larr;</button>
+        <button id="button-divide" class="calc-button divide">&divide;</button>
     
         <button id="button-7" class="calc-button">7</button>
         <button id="button-8" class="calc-button">8</button>
         <button id="button-9" class="calc-button">9</button>
-        <button id="button-times" class="calc-button">&times;</button>
+        <button id="button-times" class="calc-button multiply">&times;</button>
     
         <button id="button-4" class="calc-button">4</button>
         <button id="button-5" class="calc-button">5</button>
         <button id="button-6" class="calc-button">6</button>
-        <button id="button-minus" class="calc-button">&minus;</button>
+        <button id="button-minus" class="calc-button minus">&minus;</button>
     
         <button id="button-1" class="calc-button">1</button>
         <button id="button-2" class="calc-button">2</button>
         <button id="button-3" class="calc-button">3</button>
-        <button id="button-plus" class="calc-button">&plus;</button>
+        <button id="button-plus" class="calc-button plus">&plus;</button>
     
+        <button id="button-decimal" class="calc-button decimal">.</button>
         <button id="button-0" class="calc-button is-zero">0</button>
         <button id="button-equals" class="calc-button is-equals">&equals;</button>
       </div>
